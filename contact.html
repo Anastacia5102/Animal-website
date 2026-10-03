@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Landing page</title>
+    <style>
+      body {
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      nav {
+        background-color: #e6e6e6;
+        padding: 10px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      li {
+        float: left;
+      }
+      li a {
+        display: block;
+        padding: 14px 20px;
+        text-decoration: none;
+        color: #333;
+      }
+      li a:hover {
+        background-color: #4caf50;
+        color: white;
+      }
+      h1 {
+        color: #333;
+        margin: 30px 0;
+      }
+      .contact-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .contact-info {
+        background-color: #f5f5f5;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        text-align: left;
+      }
+      .form-group {
+        margin: 15px 0;
+      }
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        box-sizing: border-box;
+      }
+      textarea {
+        height: 100px;
+        resize: vertical;
+      }
+      .submit-btn {
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        cursor: pointer;
+        border-radius: 3px;
+      }
+
+      .submit-btn:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="contact-cotainer">
+      <h1>Contact Me!</h1>
+
+      <div class="contact-info">
+        <h3>>Get in Touch!</h3>
+        <p><strong>Phone:</strong>09066007813</p>
+        <p><strong>Email:</strong>feyikemiabioye@gmail</p>
+        <p><strong>Address:</strong>Osun,Nigeria</p>
+      </div>
+      <div class="contact-form">
+        <h3>Send me a message</h3>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
